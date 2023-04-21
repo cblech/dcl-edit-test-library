@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "Dcl SDK Library",
   "main": "./src/index.ts",
+  "types": "./src/index.ts",
   "scripts": {
     "docs": "api-documenter markdown --output-folder docs/ --input-folder temp/",
     "build": "rm -rf temp/ && rollup -c && npm run docs",
     "link": "npm link && rollup --watch -c "
   },
+  "typings": "./src/index.ts",
   "decentralandLibrary": {
     "main": "./src/index.ts"
   },
