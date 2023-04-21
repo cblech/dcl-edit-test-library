@@ -27,8 +27,8 @@
     "url": "git+https://github.com/todo"
   },
   "files": [
-    "dist",
-    "!dist/types"
+    "assets",
+    "src"
   ],
   "devDependencies": {
     "@microsoft/api-documenter": "^7.17.11",

@@ -1,9 +1,2 @@
-import { ExampleComponent, constant, someFn } from './exampleComponent'
-
-export {
-  ExampleComponent,
-  constant,
-  someFn
-}
-
-export * from './customSystem'
+export { RedGreen } from "./components/red_green";
+export { ClickMover } from "./components/click_mover";
